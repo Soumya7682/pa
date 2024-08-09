@@ -68,6 +68,9 @@ function takeCommand(message){
         window.open("https://facebook.com", "_blank");
         speak("Opening Facebook...")
     }
+	    else if(message.includes("who is your master")){
+        window.open("www.linkedin.com/in/soumya7682", "_blank");
+        speak("Soumya is my Master...")
 
     else if(message.includes('what is') || message.includes('who is') || message.includes('what are')) {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
